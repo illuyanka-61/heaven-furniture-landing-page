@@ -442,7 +442,35 @@ body {
     display: none;
 }
 
+.mobile-menu {
+    display: none;
+}
+
+.mobile-menu.active {
+    display: flex;
+}
+
 @media (max-width: 768px) {
+
+    .mobile-menu {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: var(--deep-brown);
+
+        flex-direction: column;
+        padding: 30px 8%;
+        gap: 25px;
+
+        z-index: 9;
+    }
+
+    .mobile-menu a {
+        color: var(--white);
+        text-decoration: none;
+        font-size: 18px;
+    }
 
     .hero {
         flex-direction: column;
