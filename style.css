@@ -438,7 +438,7 @@ body {
     opacity: 1;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
 
     .bespoke {
         flex-direction: column;
