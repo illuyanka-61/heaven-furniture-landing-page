@@ -438,7 +438,11 @@ body {
     opacity: 1;
 }
 
-@media (max-width: 1200px) {
+.menu-toggle {
+    display: none;
+}
+
+@media (max-width: 768px) {
 
     .bespoke {
         flex-direction: column;
@@ -478,6 +482,3 @@ body {
 
 }
 
-.menu-toggle {
-    display: none;
-}
