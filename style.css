@@ -413,7 +413,7 @@ body {
 .hero-content,
 .hero-image {
     position: relative;
-    z-index: 0;
+    z-index: 2;
 }
 
 .main-nav a,
